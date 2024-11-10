@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 10;
+}
+
+body {
+    background-color: royalblue;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    background-color: white;
+    height: fit-content;
+    width: fit-content;
+    padding: 50px;
+    border-radius: 60px 10px 60px 10px;
+    box-shadow: 5px 5px 10px;
+
+}
+
+.heading {
+    color: #5C6BC0;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px
+}
+
+button {
+    border: none;
+    outline: none;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.1s;
+    /*Smooths the background color and scaling effect*/
+}
+
+button:hover {
+    transform: scale(1.05);
+    /*Slightly enlarges the button when hovered */
+    filter: brightness(1.2);
+    /*Increases brightness for a subtle glow effect */
+}
